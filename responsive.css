@@ -1,0 +1,167 @@
+/* Responsive for mobile maximum width : 450 */
+@media screen and (max-width: 450px) {
+  .HeaderBar {
+    display: flex;
+    justify-content: center;
+  }
+  .netflixlogo {
+    margin-left: 0rem;
+  }
+  .signinbutton {
+    display: none;
+  }
+  .mainpage1content {
+    margin-top: 10rem;
+  }
+  .maintext1 {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+  .maintext1 a {
+    font-size: 2.5rem;
+  }
+  .mainarea2 {
+    margin-top: 2rem;
+  }
+  .mainarea2 p {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .searchbar {
+    color: white;
+    justify-content: center;
+    display: grid;
+  }
+  .search {
+    font-size: 1.2rem;
+    border: 0.001rem solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.384);
+    width: 15rem;
+    color: white;
+    height: 4rem;
+  }
+  .getstarted {
+    height: 3rem;
+    margin-left: 2.1rem;
+  }
+  .mainpage2content {
+    gap: 0rem;
+    text-align: center;
+    display: grid;
+  }
+  .maintext3 h1 {
+    margin-left: 0rem;
+    font-size: 2rem;
+  }
+  .maintext3 p {
+    line-height: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 1.2rem;
+  }
+  .page2image {
+    place-self: center;
+    margin-right: 0rem;
+    width: 20rem;
+    height: 15rem;
+  }
+  .mainpage3content {
+    gap: 0rem;
+    text-align: center;
+    display: grid;
+  }
+  .maintext4 h1 {
+    margin-right: 3rem;
+    margin-left: 3rem;
+    font-size: 2rem;
+  }
+  .maintext4 p {
+    margin-right: 0rem;
+    line-height: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 1.2rem;
+  }
+  .page3image {
+    margin-left: 0rem;
+    place-self: center;
+    margin-right: 0rem;
+    width: 20rem;
+    height: 15rem;
+  }
+  .mainpage4content {
+    gap: 0rem;
+    text-align: center;
+    display: grid;
+  }
+  .maintext5 h1 {
+    margin-right: 3rem;
+    margin-left: 3rem;
+    font-size: 2rem;
+  }
+  .maintext5 p {
+    margin-right: 0rem;
+    line-height: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 1.2rem;
+  }
+  .mainpage5content {
+    gap: 0rem;
+    text-align: center;
+    display: grid;
+  }
+  .maintext6 h1 {
+    margin-right: 3rem;
+    margin-left: 3rem;
+    font-size: 2rem;
+  }
+  .maintext6 p {
+    margin-right: 0rem;
+    line-height: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 1.2rem;
+  }
+  .page5image {
+    margin-left: 0rem;
+    place-self: center;
+    margin-right: 0rem;
+    width: 20rem;
+    height: 15rem;
+  }
+  .mainpage6content {
+    display: grid;
+    justify-content: center;
+    height: 60rem;
+    background-color: rgb(0, 0, 0);
+  }
+  .text7 h1 {
+    font-size: 1.3rem;
+  }
+  .Questions {
+    display: grid;
+    height: 15rem;
+  }
+  .Questionstyle {
+    place-self: center;
+    width: 20rem;
+    height: 4rem;
+  }
+  .Questionstyle p {
+    font-size: 1.2rem;
+  }
+  .footerpanel {
+    height: 50rem;
+  }
+  .footerlist {
+    gap: 3rem;
+    display: block;
+  }
+  .footerlist ul {
+    margin-top: 2rem;
+  }
+  .languageend {
+    margin-top: 4rem;
+  }
+}

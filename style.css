@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  background-color: rgba(28, 28, 28, 0.852);
+}
+.mainpage1 {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.7) 10%,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.9) 90%
+    ),
+    url("assets/background.jpg");
+  height: 46.2rem;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+}
+.HeaderBar {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  height: 5rem;
+  /* background-color: black; */
+}
+.netflixlogo {
+  margin-left: 8rem;
+  height: 4rem;
+  width: 8rem;
+  background-size: cover;
+  background-image: url("assets/netflixlogo.png");
+}
+.signinbutton {
+  border-radius: 0.4rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8rem;
+  height: 2rem;
+  width: 5rem;
+  background-color: red;
+}
+.mainpage1content {
+  background-color: rgba(0, 0, 0, 0);
+  height: 11rem;
+  margin-top: 14rem;
+}
+.maintext1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+}
+.maintext1 a {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+.maintext1 p {
+  margin-top: 0.6rem;
+  font-size: 1.4rem;
+}
+.maintext2 {
+  display: inline-block;
+}
+.mainarea2 p {
+  font-size: 1.2rem;
+}
+.mainarea2 {
+  margin-top: 2rem;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.searchbar {
+  gap: 0.8rem;
+  height: 3.5rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.search {
+  color: white;
+  font-size: 1rem;
+  border: 0.001rem solid white;
+  background-color: rgba(0, 0, 0, 0.384);
+  padding-left: 0.8rem;
+  width: 25%;
+  border-radius: 0.2rem;
+}
+.getstarted {
+  gap: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.2rem;
+  width: 12rem;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: red;
+}
+.icon1 {
+  color: black;
+  height: 0.1rem;
+  width: 1rem;
+}
+.mainpage2 {
+  margin-top: 0.6rem;
+  height: 40rem;
+  background-color: black;
+}
+.mainpage2content {
+  gap: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40rem;
+  background-color: rgb(0, 0, 0);
+}
+.maintext3 h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-left: 5rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.maintext3 p {
+  margin-top: 1.5rem;
+  margin-left: 5rem;
+  color: white;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page2image {
+  margin-right: 5rem;
+
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 10%,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.7) 90%
+    ),
+    url("assets/tv.jpeg");
+  background-size: cover;
+  height: 25rem;
+  width: 50rem;
+  background-color: aquamarine;
+}
+.mainpage3 {
+  margin-top: 0.6rem;
+  height: 40rem;
+  background-color: black;
+}
+.mainpage3content {
+  gap: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40rem;
+  background-color: rgb(0, 0, 0);
+}
+.maintext4 h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-right: 5rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.maintext4 p {
+  margin-top: 1.5rem;
+  margin-right: 5rem;
+  color: white;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page3image {
+  margin-left: 5rem;
+
+  background-image: url("assets/tv1.jpg");
+  background-size: cover;
+  height: 25rem;
+  width: 50rem;
+  background-color: aquamarine;
+}
+.mainpage4 {
+  margin-top: 0.6rem;
+  height: 30rem;
+  background-color: black;
+}
+.mainpage4content {
+  gap: 7rem;
+  display: flex;
+  align-items: center;
+  height: 30rem;
+  background-color: rgb(0, 0, 0);
+}
+.maintext5 h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-left: 10rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.maintext5 p {
+  margin-top: 1.5rem;
+  margin-left: 10rem;
+  color: white;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mainpage5 {
+  margin-top: 0.6rem;
+  height: 38rem;
+  background-color: black;
+}
+.mainpage5content {
+  gap: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38rem;
+  background-color: rgb(0, 0, 0);
+}
+.maintext6 h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-right: 5rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.maintext6 p {
+  margin-top: 1.5rem;
+  margin-right: 5rem;
+  color: white;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page5image {
+  margin-left: 5rem;
+
+  background-image: url("assets/kids.png");
+  background-size: cover;
+  height: 25rem;
+  width: 50rem;
+  background-color: aquamarine;
+}
+.mainpage6 {
+  margin-top: 0.6rem;
+  height: 60rem;
+  background-color: black;
+}
+.mainpage6content {
+  display: grid;
+  justify-content: center;
+  height: 60rem;
+  background-color: rgb(0, 0, 0);
+}
+.text7 h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.maintext7 {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Questions {
+  color: white;
+  background-color: black;
+  height: 30rem;
+}
+.Questionstyle {
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(69, 69, 69);
+  width: 80rem;
+  height: 6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Questionstyle p {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+.Questionstyle i {
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+.Questionstyle:hover {
+  background-color: gray;
+}
+.footerpanel {
+  background-color: black;
+  margin-top: 0.6rem;
+  height: 30rem;
+}
+.footermaintext {
+  display: flex;
+  height: 5rem;
+  color: white;
+}
+.maintextend {
+  margin-left: 6.4rem;
+  margin-top: 4rem;
+  color: rgb(186, 186, 186);
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+}
+.footerlist {
+  margin-top: 4rem;
+  gap: 5rem;
+  display: flex;
+  margin-left: 4rem;
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  color: rgb(186, 186, 186);
+}
+.languageend {
+  gap: 0.7rem;
+  display: flex;
+  border-radius: 0.2rem;
+  border: 0.001rem solid white;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  width: 7rem;
+  height: 2rem;
+  margin-top: 3rem;
+  margin-left: 6.5rem;
+}
+.endselect {
+  background-color: black;
+  border: none;
+  color: white;
+}
+.lasttext {
+  width: 8rem;
+  height: 3rem;
+  color: rgb(186, 186, 186);
+  margin-left: 6.5rem;
+  margin-top: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
